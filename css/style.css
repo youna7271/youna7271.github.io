@@ -1,0 +1,105 @@
+.button {
+	font-family: sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1vw;
+	letter-spacing: 1px;
+	font-weight: bold;
+	background: #C3167C;
+	color: white;
+	text-align: center;
+	padding: 7px;
+	box-shadow: inset 0 -2px 0 rgba(0,0,0,.2);
+	border-radius: 4px;
+	z-index: 1;
+}
+
+.blurb {
+	background: rgba(255,255,255,.8);
+	width: 20%;
+	transition: width 500ms;
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #C3167C;
+	z-index: 1;
+	position: absolute;
+	padding: 10px;
+}
+
+
+
+
+.bu1{
+	left: 38%;
+	top: 19%;
+	position: absolute;
+}
+
+.q1 {
+	display: none;
+	left: 38%;
+	top: 21.7%;
+}
+
+
+
+.bu2{
+	left: 17%;
+	top: 31%;
+	position: absolute;
+}
+
+
+
+.bu3{
+	left: 67%;
+	top: 39%;
+	position: absolute;
+}
+
+.q3 {
+	display: none;
+	left: 67%;
+	top: 41.5%;
+}
+
+
+
+.bu4{
+	left: 28%;
+	top: 50.5%;
+	position: absolute;
+}
+
+.q4 {
+	display: none;
+	left: 28%;
+	top: 53%;
+}
+
+
+.bu5{
+	left: 73%;
+	top: 61.5%;
+	position: absolute;
+}
+
+
+
+.img-responsive {
+    position: relative;
+    padding-top: 150%; 
+    overflow: hidden;
+}
+
+.img-responsive img {
+    width:100%;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+
+
+
+
